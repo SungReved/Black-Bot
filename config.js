@@ -9,67 +9,30 @@ import moment from "moment-timezone"
 import { es as esDefault, en as enDefault } from "./lib/multi-language/_default.js"
 import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// [ES] > Agrega el número que será Bot y los que serán propietarios.
-// [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["5214774444444", '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿
-["5492266613038"], 
-["5573031859"],
-["5218715746374"],
-["593968585383"],
-["595976126756"],
-["584125778026"],
-["593968263524"],
-["5215539356057"]]
+["201210294771", 'ᯓ 𝅧𝅦𝑩𝑳𝑨𝑪𝑲 𝑩𝑶𝑻˖𖥔', true]]
 
 global.mods = []
 global.prems = []
 
-//cambia a false Desactivar en "auto-reconexion" de sub-bots
 global.gataJadibts = true
 
-// Cambiar a false para usar el Bot desde el mismo numero del Bot.
 global.isBaileysFail = false
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ RENDER ❱❱
-//Kurt18: Obtener el código QR por la URL del Hosting
-global.obtenerQrWeb = 0; //Solo valores: 1 o 0
-//Kurt18: Aplica para Host Render.com
-global.keepAliveRender = 0; //Solo valores: 1 o 0
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+global.obtenerQrWeb = 0; 
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ methodCode ❱❱
-// [ES] > Agregue el número del Bot en "botNumberCode" si desea recibir código de 8 dígitos sin registrar el número en la consola.
-// [EN] > Add the Bot number in "botNumberCode" if you want to receive 8-digit code without registering the number in the console.
-global.botNumberCode = "" //example: "+59309090909"
-global.confirmCode = "" // No tocar esto : Do not touch this line
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+global.keepAliveRender = 0; 
+global.botNumberCode = "" 
+global.confirmCode = "" 
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ Multi Idioma Dinámico : Dynamic Multi Language (MID-GB) ❱❱
-// [ES] > Agregué uno de los idiomas disponibles para el Bot en "mid".
-// [EN] > I added one of the languages available for the Bot in "mid".
-
-// ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
-// Español 👉 es           
-// English 👉 en
-global.lenguajeGB = es
+global.lenguajeGB = ar
 global.mid = esDefault
-global.version_language = '1.0 (MID-GB)'
+global.version_language = '1.0'
 
-// [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
-// [EN] > If "default_language" is empty, your default language will be Spanish or the language that each user has selected at the time of registration will be used.
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+global.Key360 = ["Gata_Dios"] 
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ API KEYS ❱❱
-global.Key360 = ["Gata_Dios"] // key Ephoto360
-global.openai_key = 'sk-0' // Api New: https://platform.openai.com/account/api-keys 
-global.openai_org_id = 'org-3' // Api New: https://platform.openai.com/account/org-settings */
+global.openai_key = 'sk-0' 
+global.openai_org_id = 'org-3' 
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"]
@@ -120,34 +83,23 @@ global.fs = fs
 global.fetch = fetch
 global.axios = axios
 global.moment = moment
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
-// [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
-global.official = [ // Agregate si eres Owner
+global.official = [
 ["593968263524", 'Gata Dios 💻', 1], 
 ["573147616444", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
 ["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
-global.mail = '' // Add email
-global.desc = '' // Add short description (20 caractres max)
-global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
-global.country = '' // Add country, example: 🇪🇨
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+global.mail = '' 
+global.desc = '' 
+global.desc2 = '' 
+global.country = '' 
 
 global.packname = `╭ 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 🐈\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @globalgb\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @gatadios\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @gata_dios\n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
 global.author = ` ╭ 𝗚𝗮𝘁𝗮 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
-// MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
-// [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "5.0 (Beta)"
 global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
 global.resultado = rg
@@ -170,15 +122,11 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
 global.nomorown = "593993684821"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰ RPG ❱
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
@@ -219,9 +167,7 @@ message: {
 }}}
 
 
-global.multiplier = 85 // Cuanto más alto, más difícil subir de nivel 
-
-//Emojis RPG - Referencias
+global.multiplier = 85 
 global.rpg = {
 emoticon(string) {
 string = string.toLowerCase();
@@ -427,9 +373,7 @@ let results = Object.keys(emotttt).map(v => [v, new RegExp(v, 'gi')]).filter(v =
 if (!results.length) return '';
 else return emotttt[results[0][0]];
 }}
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-// IDs de canales
 global.ch = {
 ch1: '120363336642332098@newsletter',
 ch2: '120363160031023229@newsletter',
@@ -442,7 +386,6 @@ ch8: '120363374372683775@newsletter',
 ch9: '120363167110224268@newsletter',
 ch10: '120363323882134704@newsletter',
 }
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 let file = fileURLToPath(import.meta.url);
 watchFile(file, () => {
