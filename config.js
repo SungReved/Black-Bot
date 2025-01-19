@@ -15,7 +15,7 @@ global.owner = [
 global.mods = []
 global.prems = []
 
-global.gataJadibts = true
+global.gataJadibts = false
 
 global.isBaileysFail = false
 
