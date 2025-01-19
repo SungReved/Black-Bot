@@ -74,10 +74,7 @@ global.APIKeys = {
 'https://api.itsrose.site': 'Rs-Zeltoria',
 'https://api-xcoders.site': 'Frieren'
 }
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-// ❰❰ bibliotecas : libraries ❱❱
 global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
@@ -85,9 +82,7 @@ global.axios = axios
 global.moment = moment
 
 global.official = [
-["593968263524", 'Gata Dios 💻', 1], 
-["573147616444", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
+["201210294771", 'ᯓ 𝅧𝅦𝑩𝑳𝑨𝑪𝑲 𝑩𝑶𝑻˖𖥔', 1]]
 
 global.mail = '' 
 global.desc = '' 
@@ -98,8 +93,8 @@ global.packname = `╭ 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 🐈\n┃\n┃ » �
 global.author = ` ╭ 𝗚𝗮𝘁𝗮 𝗗𝗶𝗼𝘀 ✓\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 
 global.vs = "1.7.0"
-global.vsJB = "5.0 (Beta)"
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
+global.vsJB = "5.0"
+global.gt = "ᯓ 𝅧𝅦𝑩𝑳𝑨𝑪𝑲 𝑩𝑶𝑻˖𖥔"
 
 global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
 global.resultado = rg
@@ -122,9 +117,9 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿"
-global.nomorown = "593993684821"
+global.wm = "ᯓ 𝅧𝅦𝑩𝑳𝑨𝑪𝑲 𝑩𝑶𝑻˖𖥔"
+global.igfg = "ᯓ 𝅧𝅦𝑩𝑳𝑨𝑪𝑲 𝑩𝑶𝑻˖𖥔"
+global.nomorown = "201210294771"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 
 global.flaaa = [
@@ -375,16 +370,16 @@ else return emotttt[results[0][0]];
 }}
 
 global.ch = {
-ch1: '120363336642332098@newsletter',
-ch2: '120363160031023229@newsletter',
-ch3: '120363169294281316@newsletter',
-ch4: '120363203805910750@newsletter',
-ch5: '120363302472386010@newsletter',
-ch6: '120363301598733462@newsletter',
-ch7: '120363190430436554@newsletter',
-ch8: '120363374372683775@newsletter', 
-ch9: '120363167110224268@newsletter',
-ch10: '120363323882134704@newsletter',
+ch1: '120363367436260980@newsletter',
+ch2: '120363367436260980@newsletter',
+ch3: '120363367436260980@newsletter',
+ch4: '120363367436260980@newsletter',
+ch5: '120363367436260980@newsletter',
+ch6: '120363367436260980@newsletter',
+ch7: '120363367436260980@newsletter',
+ch8: '120363367436260980@newsletter', 
+ch9: '120363367436260980@newsletter',
+ch10: '120363367436260980@newsletter',
 }
 
 let file = fileURLToPath(import.meta.url);
@@ -394,24 +389,24 @@ console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
 
-global.yt = 'https://youtube.com/@gatadios'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
-global.fb = 'https://www.facebook.com/groups/872989990425789'
-global.tk = 'https://www.tiktok.com/@gata_dios'
-global.ths = 'https://www.threads.net/@gata_dios'
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
-global.all = 'https://www.atom.bio/GataBot'
-global.canal1 = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A'
-global.canal2 = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g'
-global.canal3 = 'https://whatsapp.com/channel/0029VaKn22pDJ6GwY61Ftn15'
-global.canal4 = 'https://t.me/globalgb'
+global.yt = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.ig = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.md = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.fb = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.tk = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.ths = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.paypal = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.asistencia = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.all = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.canal1 = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.canal2 = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.canal3 = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
+global.canal4 = 'https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C'
 
-global.soporteGB = "https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV"
-global.grupo1 = "https://chat.whatsapp.com/KNwcGS4PCEN5qjbHD5VDZM"
-global.grupo2 = "https://chat.whatsapp.com/LfcjmLcYax431QXBO0CSPk"
-global.grupo_collab1 = "https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh"
-global.grupo_collab2 = "https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp"
-global.grupo_collab3 = "https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU"
-global.grupo_collab4 = "https://chat.whatsapp.com/LuD3YzdOjH16LUwPPCVmL6"
+global.soporteGB = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo1 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo2 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo_collab1 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo_collab2 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo_collab3 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
+global.grupo_collab4 = "https://whatsapp.com/channel/0029Vb1oHBiI7BeKAWWNJo2C"
